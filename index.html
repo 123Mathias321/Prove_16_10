@@ -1,0 +1,105 @@
+<body>
+<span class="grid-container">
+<div class="grid"></div>
+<table class="grid">
+    <tr class="rod">
+        <th colspan="2" class="bold">År</th>
+    </tr>
+    <tr class="gra">
+        <td class="bold">Måned</td>
+        <td class="bold">Tjent</td>
+    </tr>
+    <tr class="gra">
+        <td>Januar</td>
+        <td>12 500 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>Februar</td>
+        <td>17 800 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>Mars</td>
+        <td>28 300 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>april</td>
+        <td>15 750 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>mai</td>
+        <td>14 900 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>juni</td>
+        <td>11 200 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>juli</td>
+        <td>16 400 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>august</td>
+        <td>16 400 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>september</td>
+        <td>16 400 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>oktober</td>
+        <td>16 400 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>november</td>
+        <td>16 400 kr</td>
+    </tr>
+    <tr class="gra">
+        <td>desember</td>
+        <td>16 400 kr</td>
+    </tr>
+    <tr class="bla">
+        <td class="bold">Totalt</td>
+        <td class="bold">200 000 kr</td>
+    </tr>
+</table>
+<div class="grid"></div>
+</span>
+
+</body>
+<style>
+    .bold{
+        font-weight: bold;
+    }
+    .bla{
+        background-color: #3498db;
+        color: white;
+    }
+    .rod{
+        background-color: #e74c3c;
+        color: white;
+    }
+    table{
+        border-collapse: collapse;
+    }
+    .gra:nth-child(even){
+        background-color: #f2f2f2;
+    }
+    .gra:nth-child(odd){
+        background-color: white;
+    }
+    td{
+        padding: 12px 15px;
+    }
+    th{
+        padding: 12px 15px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: 18vw 60vw 18vw;
+        grid-template-rows: 90vh;
+    }
+    body{
+        background-color: aqua;
+    }
+
+</style>
